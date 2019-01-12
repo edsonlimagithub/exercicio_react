@@ -10,7 +10,5 @@ function parOuImpar(num){
 
 export default props => 
     <View>
-       
-
         {parOuImpar(props.numero)}
     </View>

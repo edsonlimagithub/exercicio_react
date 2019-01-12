@@ -9,7 +9,7 @@ const Inverter = props => {
 
 const MegaSena = props => {
     const [min, max] = [1, 60]
-    const numeros = Array(props.numeros || 6).fill(0)
+    const numeros = Array(props.numero || 6).fill(0)
 
     for (let i = 0; i < numeros.length; i++) {
         let novo = 0

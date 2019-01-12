@@ -1,5 +1,5 @@
 import React from 'react'
-import { createDrawerNavigator } from 'react-navigation'
+import { createDrawerNavigator, createStackNavigator } from 'react-navigation'
 
 import Simples from './componentes/Simples'
 import ParImpar from './componentes/ParImpar'
@@ -8,7 +8,7 @@ import { Inverter } from './componentes/Multi'
 export default createDrawerNavigator(
     {
         Inverter: {
-            screen: () => <Inverter text='React Native' />
+            screen: () => <Inverter texto='React Native' />
         },
         ParImpar:{
             screen: () => <ParImpar numero={30} />
