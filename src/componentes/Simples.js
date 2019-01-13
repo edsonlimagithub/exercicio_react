@@ -7,4 +7,4 @@ import Padrao from '../estilo/Padrao'
 // }
 
 export default props =>  
-    <Text style={[Padrao.ex]}>Aero: ${props.texto}</Text>
+    <Text style={[Padrao.ex]}>Aeros: {props.texto}</Text>
